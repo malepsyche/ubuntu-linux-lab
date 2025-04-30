@@ -1,0 +1,8 @@
+services:
+  ubuntu-linux-lab:
+    container_name: ubuntu-linux-lab
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    
