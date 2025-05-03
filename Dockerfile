@@ -16,6 +16,8 @@ RUN apt update && apt install -y \
     net-tools iputils-ping \
     procps lsof htop ncdu \
     sudo bash-completion \
+    tree \
+    locate \
     && apt clean && rm -rf /var/lib/apt/lists/*
 
 # Add user and give sudo rights
